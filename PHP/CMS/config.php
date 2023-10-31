@@ -1,8 +1,8 @@
 <?php
     define("DBIP", "127.0.0.1");
-    define("DBUSER", "enngzjko_wp9");
-    define("DBPASS", "3[].X@n5uBS!5pua");
-    define("DBDB", "enngzjko_wp9");
+    define("DBUSER", "yvdpwaza_wp984");
+    define("DBPASS", "(AtQ45p2))C(WS5[");
+    define("DBDB", "yvdpwaza_wp984");
     
     $links = array();
         $links[] = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css";

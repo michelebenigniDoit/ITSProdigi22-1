@@ -2,14 +2,14 @@
     session_start();
     include("config.php");
     // index.php?mod=ticket&act=del&id=3&out=json
-    //                      &act=mod
-    //                      &act=new
-    //                      &act=lst
+    //                     &act=mod
+    //                     &act=new
+    //                     &act=lst
     // index.php?mod=ticket&q=pc
     
     $modulo = $_GET["mod"];
     if(file_exists("moduli/".$modulo.".php")){
-        // se non c'è sessione
+        // se non c'ï¿½ sessione
         if(empty($_SESSION["utente"])){
             // rigira alla login
             header("location: index.php");
